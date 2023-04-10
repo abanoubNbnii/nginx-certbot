@@ -16,7 +16,7 @@ application.
 
 3. Modify configuration:
 - Add domains and email addresses to init-letsencrypt.sh
-- Replace all occurrences of example.org with primary domain (the first one you added to init-letsencrypt.sh) in data/nginx/app.conf
+- Replace all occurrences of ec2-18-184-64-171.eu-central-1.compute.amazonaws.com with primary domain (the first one you added to init-letsencrypt.sh) in data/nginx/app.conf
 
 4. Run the init script:
 
