@@ -5,10 +5,10 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=(ec2-18-184-64-171.eu-central-1.compute.amazonaws.com www.ec2-18-184-64-171.eu-central-1.compute.amazonaws.com)
+domains=(nbnii.com www.nbnii.com)
 rsa_key_size=4096
 data_path="./data/certbot"
-email="" # Adding a valid address is strongly recommended
+email="abanoub.e.mhanna@nbnii.com" # Adding a valid address is strongly recommended
 staging=0 # Set to 1 if you're testing your setup to avoid hitting request limits
 
 if [ -d "$data_path" ]; then
